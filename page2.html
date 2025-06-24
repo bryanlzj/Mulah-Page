@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MULAH - Registration</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>MULAH</h1>
+        </div>
+
+        <h2>Registration</h2>
+        <p class="subtitle">Please fill up your details.</p>
+
+        <form id="registrationForm" novalidate>
+            <!-- Name -->
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter Name" />
+                <p class="error" id="nameError">*Please insert a name.</p>
+            </div>
+
+            <!-- Birthday -->
+            <div class="input-group">
+                <label>Birthday</label>
+                <div class="birthday-input">
+                    <input type="number" id="day" placeholder="DD" min="1" max="31" />
+                    <input type="number" id="month" placeholder="MM" min="1" max="12" />
+                    <input type="number" id="year" placeholder="YYYY" min="1900" max="2099" />
+                </div>
+                <p class="error" id="birthdayError">*Please insert your birthday.</p>
+            </div>
+
+            <!-- Email -->
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email Address" />
+                <p class="error" id="emailError">*Please insert a valid email address.</p>
+
+                <div style="margin-top: 8px;">
+                    <label><input type="checkbox" id="noEmail" /> No email address</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Continue</button>
+        </form>
+
+        <div class="footer">
+            Powered by <a href="https://MulahRewards.com" target="_blank">MulahRewards.com</a>
+        </div>
+    </div>
+
+    <script src="js/page2.js"></script>
+</body>
+
+</html>

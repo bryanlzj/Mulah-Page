@@ -1,0 +1,144 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    width: 640px;
+    height: 1136px;
+    margin: auto;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo h1 {
+    color: #f26522;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    margin: 20px 0 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input-with-code {
+    display: flex;
+    align-items: center;
+}
+
+.country-code {
+    padding: 12px;
+    background: #eee;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid #ccc;
+    border-right: none;
+    font-size: 16px;
+}
+
+.input-with-code input {
+    flex: 1;
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.birthday-input {
+    display: flex;
+    gap: 10px;
+}
+
+.birthday-input input {
+    flex: 1;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #f26522;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e0541c;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+    display: none;
+}
+
+.summary-box {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    background: #f9f9f9;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
